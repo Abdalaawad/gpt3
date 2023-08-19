@@ -1,0 +1,94 @@
+.whatgpt-gpt3 {
+    margin: 0 135px 0;
+    background-color: #052D56;
+    /* height: 700px; */
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 15px 25px;
+}
+.whatgpt-title-gpt3 {
+    display: flex;
+
+}
+
+.whatgpt-text-gpt3 {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     margin: 100px 0;
+}
+.whatgpt-text-gpt3 h1 {
+    width: 472px;
+height: 90px;
+left: 187px;
+top: 1301px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+/* or 132% */
+
+
+background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%), #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+
+}
+.whatgpt-text-gpt3 h2 {
+    width: 143px;
+height: 30px;
+left: 1107px;
+top: 1316px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+
+color: #FF8A71;
+}
+.whatgpt-feature-gpt3 {
+    display: flex;
+flex-direction: column;
+/* width: 300px; */
+    
+}
+@media screen and (max-width:450px){
+    .whatgpt-gpt3 {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+    /* .whatgpt-title-gpt3 {
+        display: flex;
+        flex-direction: column;
+    } */
+    .whatgpt-text-gpt3 {
+     display: flex;
+     /* justify-content: space-between; */
+     align-items: center;
+     margin-bottom: 60px;
+     width: 100%;
+    }
+    .whatgpt-text-gpt3 h1 {
+font-size: 20px;
+width: 100px;
+    }
+    .whatgpt-text-gpt3 h2 {
+        font-size: 20px;
+        /* width: 200px;     */
+
+
+    }
+}

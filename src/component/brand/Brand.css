@@ -1,0 +1,32 @@
+.brand-gpt3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    padding: 40px;
+}
+.brand-image-gpt3 {
+    width: 700px;
+}
+
+.brand-image-gpt3 img {
+    /* color: white; */
+    
+width: 71.1px;
+height: 24.15px;
+margin-right: 40px;
+}
+@media screen and (max-width:450px) {
+    .brand-image-gpt3 {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .brand-image-gpt3 img {
+width: 50px;
+margin-right: 20px;
+/* object-fit: cover; */
+    }
+    
+}

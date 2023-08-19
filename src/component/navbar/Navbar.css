@@ -1,0 +1,137 @@
+.navbar-gpt3 {
+    padding: 30px 60px;
+    flex: 1;
+
+}
+.navbar-container-gp3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.navbar-image-gp3 img {
+    width: 62.56px;
+height: 16.02px;
+left: 135.66px;
+top: 74.29px;
+
+
+}
+.navbar-list-gp3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+.navbar-list-gp3 p {
+    padding: 0 15px;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+.navbar-list-gp3 p a {
+    color: #FFFFFF; 
+
+}
+.navbar-input-gp3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   margin-right: 10px;
+}
+.navbar-input-gp3 p {
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+/* identical to box height */
+/* background-color: #040C18; */
+margin-right: 10px;
+
+
+color: #FFFFFF;
+}
+.navbar-input-gp3 button {
+    background-color: #FF4820;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.app-nav-burg {
+    display: none;
+}
+.app-nav-close {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    /* width: 200px; */
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 50px; */
+    color: white;
+}
+.navbar-list-gp3-close {
+color: white;
+ 
+ 
+}
+.navbar-list-gp3-close p {
+    margin-bottom: 60px;
+    color: white;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar-list-gp3-close p a {
+    color: white;
+    letter-spacing: 4px;
+}
+.close-nav {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 40px;
+}
+@media screen and (max-width:450px) {
+  
+    .navbar-container-gp3 {
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        align-items: center;
+        /* width: 100%; */
+
+    }
+    .navbar-list-gp3 {
+        display: none;
+    }
+    .navbar-image-gp3 {
+        margin-right: 20px;
+    }
+    .app-nav-burg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .navbar-input-gp3 {
+        display: none;
+    }
+
+}

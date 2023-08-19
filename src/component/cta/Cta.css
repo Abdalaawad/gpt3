@@ -1,0 +1,136 @@
+.cta-gp3 {
+    margin: 3px 10px -20px 100px;
+}
+.cta-gpt3-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-image-gp3 img {
+    width: 550px;
+    height: 502.05px;
+    left: 544.31px;
+    top: 2621.47px;
+    
+    /* background: #042C54; */
+    border-radius: 183.655px 0px 0px 0px;
+}
+.cta-box-gt3 {
+    width: 100%;
+    margin-top: 50px;
+}
+.cta-box-gt3 h2 {
+    width: 271px;
+    height: 30px;
+    left: 742px;
+    top: 2655px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    
+    color: #71E5FF;
+    margin-bottom: 5px;
+    
+}
+.cta-box-gt3 h1 {
+    width: 426px;
+height: 90px;
+left: 742px;
+top: 2695px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 34px;
+line-height: 45px;
+/* or 132% */
+margin-bottom: 5px;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%), #FFFFFF;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.cta-box-gt3 p {
+    width: 479px;
+height: 120px;
+left: 742px;
+top: 2808px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+margin-top: 10px;
+
+color: #81AFDD;
+
+
+}
+.cta-box-gt3 h3 {
+    width: 271px;
+    height: 30px;
+    left: 742px;
+    top: 2959px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    
+    color: #FF8A71;
+    
+}
+@media screen and (max-width:450px) {
+    .cta-gpt3-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+  .cta-image-gp3 {
+    width: 460px;
+    object-fit: cover;
+    /* margin-right: 100px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 100px;
+  }
+  .cta-image-gp3 img {
+    width: 370px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .cta-box-gt3 {
+    width: 470px;
+    margin-left: 40px;
+  
+  }
+  .cta-box-gt3 h1 {
+    font-size: 30px;
+    width: 300px;
+    margin-top: 10px;
+  }
+  .cta-box-gt3 p {
+    width: 300px;
+    margin-top: 20px;
+  }
+  .cta-box-gt3 h3 {
+    margin-top: 40px;
+  }
+    
+}

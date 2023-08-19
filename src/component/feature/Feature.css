@@ -1,0 +1,72 @@
+.feature-gpt {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+.feature-container-gpt {
+    flex: 1;
+  
+}
+.feature-container-gpt h1 {
+    width: 151px;
+    height: 75px;
+    left: 196px;
+    top: 1101px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 75px;
+    /* identical to box height, or 312% */
+    
+    letter-spacing: -0.04em;
+    
+    color: #FFFF
+}
+.feature-box {
+    flex: 1;
+    /* display: flex; */
+    
+}
+.feature-box p {
+    width: 731px;
+height: 92px;
+left: 501px;
+top: 1118px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+
+
+color: #81AFDD;
+
+}
+@media screen and (max-width:450px) {
+    .feature-gpt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .feature-container-gpt {
+        /* width: 100%; */
+        width: 300px;
+    }
+
+    .feature-box p {
+        width: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+    

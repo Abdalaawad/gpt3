@@ -1,0 +1,163 @@
+.footer-gpt3 {
+   margin-top: 20px;
+    background-color: #031B34;
+  padding: 50px;
+}
+.footer-heading-gpt3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-heading-gpt3 h1 {
+    width: 821px;
+height: 150px;
+left: 310px;
+top: 4796px;
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 800;
+font-size: 62px;
+line-height: 75px;
+/* or 121% */
+
+text-align: center;
+letter-spacing: -0.04em;
+
+background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+.footer-heading-gpt3 button {
+    width: 218px;
+height: 65px;
+left: 612px;
+top: 5010px;
+
+font-family: 'Manrope';
+font-style: normal;
+border: 1px solid #ffffff;
+margin-top: 60px;
+
+background: #031B34;
+color: white;
+cursor: pointer;
+}
+.footer-container-gpt3 {
+    display: flex;
+    justify-content: space-between;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+}
+.footer-box-gpt3 {
+    /* flex: 1; */
+    width: 300px;
+}
+.footer-box-gpt3 h1 {
+    width: 118px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+height: 30px;
+left: 208px;
+top: 5260px;
+
+color: #FFFFFF;
+
+}
+.footer-box-gpt3 p {
+    width: 168px;
+    height: 30px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    left: 206px;
+    top: 5315px;
+    
+    font-family: 'Gilroy-Medium';
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #FFFFFF;
+    margin-top: 20px;
+    
+}
+.footer-box-gpt3 ul li {
+    list-style: none;
+    padding: 8px;
+    /* font-size: 20px; */
+    
+    font-family: 'Manrope';
+    font-style: normal;
+}
+.footer-box-gpt3 ul li a {
+    width: 46px;
+    text-transform: capitalize;
+    font-family: 'Manrope';
+    font-style: normal;
+height: 15px;
+left: 611px;
+top: 5308px;
+
+font-family: 'Gilroy-Medium';
+font-size: 14px;
+letter-spacing: 1.5px;
+line-height: 14px;
+
+color: #FFFFFF;
+
+}
+.footer-box-gpt3 ul li .active {
+    width: 80px;
+height: 17px;
+left: 1119px;
+top: 5255px;
+
+font-family: 'Gilroy-Bold';
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+}
+@media screen and (max-width:450px) {
+   
+   .footer-heading-gpt3 {
+    width: 100%;
+   }
+      
+   .footer-heading-gpt3 h1 {
+    font-size: 30px;
+    /* width: 300px; */
+width: 300px    ;
+   }
+      
+
+   
+    .footer-container-gpt3 {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     /* align-items: center;
+     justify-content: center; */
+     gap: 20px;
+ 
+    }
+    .footer-box-gpt3 {
+        width: 200px;
+        /* margin-right: 40px; */
+       
+    }
+
+    
+}
